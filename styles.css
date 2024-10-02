@@ -38,6 +38,7 @@ header {
 .image-container {
     position: relative;
     display: inline-block;
+    margin-top: 1em;
 }
 
 .whatsapp-link {
@@ -49,7 +50,7 @@ header {
 }
 
 .whatsapp-image {
-    width: 200px; /* Ajusta el ancho según tus necesidades */
+    width: 100%; /* Ajusta el ancho según tus necesidades */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block;
 }
@@ -73,4 +74,23 @@ main {
     padding: 1em;
     text-align: center;
     color: rgb(0, 0, 0);
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 600px) {
+    .h1-container {
+        padding: 0.5em;
+    }
+
+    .h1-image {
+        width: 80px; /* Ajusta el ancho según tus necesidades */
+    }
+
+    .overlay-text {
+        font-size: 1em; /* Ajusta el tamaño del texto según tus necesidades */
+    }
+
+    p {
+        font-size: 0.9em; /* Ajusta el tamaño del texto según tus necesidades */
+    }
 }
