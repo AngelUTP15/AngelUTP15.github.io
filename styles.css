@@ -38,17 +38,9 @@ main {
     color: rgb(0, 0, 0);
 }
 
-button {
-    background-color: #5D5C31;
-    color: #000000;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .image-container {
-    padding: 1em;
+    padding: 200px;
+    image-resolution: 1dpi;
 }
 
 img {
