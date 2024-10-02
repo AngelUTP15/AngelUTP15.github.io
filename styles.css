@@ -28,23 +28,18 @@ header {
 
 .h1-image {
     margin-right: 1em; 
-    width: 2em; 
-    height: auto;
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 30%;
+}
+
+.whatsapp-image {
+    width: 1em; /* Ajusta el ancho según tus necesidades */
+    height: 1em; /* Mantiene la proporción de la imagen */
 }
 
 main {
     padding: 1em;
     text-align: center;
     color: rgb(0, 0, 0);
-}
-
-.image-container {
-    padding: 200px;
-    image-resolution: 1dpi;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    display: block;
 }
